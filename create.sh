@@ -11,7 +11,7 @@
 
 create() {
 
-	cd /home/eyadali05/workspace 
+	cd your/path/to/workspace
 	mkdir $1
 	cd $1
 	touch README.md
@@ -29,7 +29,7 @@ create() {
 		cd 'src'
 		touch 'style.css'
 	fi
-	cd /home/eyadali05/workspace/$1
+	cd your/path/to/workspace/$1
 	nvim OUTLINE.md
 }
 
